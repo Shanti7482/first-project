@@ -1,0 +1,55 @@
+body
+{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color:rgb(6, 11,15) ;
+}
+.search-bar-container
+{
+    display:flex ;
+    align-items: center;
+    background-color: aliceblue;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 5px;
+    width: 300px;
+    height: 50px;
+    border-radius:50px ;
+    margin: 10px;
+    position: relative;
+    /*transition: 1.5s;*/
+
+}
+.magnifier
+{
+    width: 25px;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+}
+
+.mac-icon
+{
+    width: 30px;
+    position:absolute;
+    right: 10px;
+    transition: width 0.4s;
+    transition-delay: 1s;
+}
+
+div input{
+    background:transparent;
+    border: none;
+    outline: 0px;
+    width: 360px;
+    height:60px;
+    border-radius: 50px;
+}
+div #search{
+  padding: 40px;
+}
